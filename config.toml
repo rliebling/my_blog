@@ -56,8 +56,8 @@ enable = true
 [params.widgets]
 homepage = ["recent_posts"]
 #sidebar = ["about","search","sidebar_menu","taxonomy_cloud"]
-sidebar = ["about","sidebar_menu","taxonomy_cloud"]
-footer = ["social_menu"]
+sidebar = ["about","sidebar_menu","taxonomy_cloud","social_menu"]
+footer = []
 
 [params.opengraph.facebook]
 admins = [] # array of Facebook IDs
@@ -74,6 +74,7 @@ titleSeparator = "•"
 [params.social]
 email = "blog@liebling.us"
 github = "rliebling"
+linkedin = "richliebling"
 
 [params.comments]
 enable = false
