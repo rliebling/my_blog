@@ -1,0 +1,12 @@
+id = "rich"
+
+[email]
+username = "blog"
+host = "liebling.us"
+
+[name]
+display = "Rich Liebling"
+
+[social]
+email = ""
+linkedin= "richliebling"

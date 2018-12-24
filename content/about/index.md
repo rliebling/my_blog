@@ -3,6 +3,7 @@ title: "About Me"
 date: 2018-12-22T20:42:18-08:00
 tags: [ "about" ]
 draft: false
+authors: ["rich"]
 ---
 
 I've been leading software engineering teams since 2001.  Prior to that, as an individual contributor I couldn't stop thinking about how the team could be better managed, making it inevitable I would go into management to try to do it better.
