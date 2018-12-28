@@ -29,3 +29,20 @@ HUGO_VERSION = "0.52"
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
 
+[[redirects]]
+  from = "https://gallant-kare-80073e.netlify.com/*"
+  to = "https://rich.liebling.us/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.liebling.us/*"
+  to = "https://rich.liebling.us/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://liebling.us/*"
+  to = "https://rich.liebling.us/:splat"
+  status = 301
+  force = true
