@@ -2,6 +2,7 @@ baseURL = "https://rich.liebling.us"
 title = "Rich Liebling"
 # for smart copyright line, leave this blank and check [params.copyright]
 copyright = ""
+footnoteReturnLinkContents="↩"
 
 theme = "engimo"
 
@@ -77,16 +78,16 @@ github = "rliebling"
 linkedin = "richliebling"
 
 [params.comments]
-enable = false
+enable = true
 
 [params.comments.staticman]
 enable = true
-apiEndpoint = "https://api.staticman.net/v2/entry"
+apiEndpoint = "https://dev.staticman.net/v2/entry"
 maxDepth = 2
 
 [params.comments.staticman.github]
 username = "rliebling"
-repository = "engimo"
+repository = "my_blog"
 branch = "master"
 
 # Utterances: https://utteranc.es
