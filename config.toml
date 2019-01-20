@@ -82,7 +82,7 @@ enable = true
 
 [params.comments.staticman]
 enable = true
-apiEndpoint = "https://dev.staticman.net/v2/entry"
+apiEndpoint = "https://dev.staticman.net/v3/entry/github"
 maxDepth = 2
 
 [params.comments.staticman.github]
