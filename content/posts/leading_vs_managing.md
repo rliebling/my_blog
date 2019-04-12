@@ -39,7 +39,7 @@ All leaders in a company should exemplify the values the company wants to foster
 
 One aspect that distinguishes more senior engineers from less senior ones is their consideration of the business context when thinking about solutions.  While it's great to have engineers that can design and build highly scalable systems, a senior engineer understands that this is not always the right thing to do.  (For example, often times a more lean/agile approach is more appropriate to deliver sooner and assess the value.)  
 
-Engineering leaders must recognize the business context and help align their teams on it.  Some example topics are scalability needs (in concurrency, data size), relative importance of speed of delivery, quality, cost to deliver, etc.
+Engineering leaders must recognize the business context and help align their teams on it.  Some example topics are scalability needs (in concurrency, data size), relative importance of speed of delivery, quality, cost to deliver, etc. Left to their own devices, engineers will often want to make things more interesting (read: complex), often in the name of trying to anticipate circumstances (eg scale).  The engineering leader bears responsibility for setting the context that gives the team the confidence to keep it (appropriately) simple.
 
 ##### Strategy
 
