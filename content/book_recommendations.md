@@ -22,6 +22,12 @@ Some of my favorite (work-related) books
     <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=rliebling-20&marketplace=amazon&region=US&placement=1595621113&asins=1595621113&linkId=556cf0aed7ae535221cc33f3568006ea&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
     </iframe>
 
+* [The Five Dysfunctions of Team](https://www.amazon.com/gp/product/0787960756/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0787960756&linkCode=as2&tag=rliebling-20&linkId=384ac84e3857868a4d7dcffc1af56166)
+    --- In this book, written as a novella, Lencioni brings to life the critical prerequisites to building a culture of "disagree and commit", made famous by Bezos.  One aspect that was assumed but not discussed in the book (as best i recall) but I have recently realized the obvious importance of is that all involved must know and accept who the decision maker is.  Yes, having clarity around who decides what is important more generally for a well-functioning organization.  But, in particular, "disagree and commit" doesn't really work without it.
+
+    <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=rliebling-20&marketplace=amazon&region=US&placement=0787960756&asins=0787960756&linkId=1c4d9f52ccf896984d014653e092625c&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+    </iframe>
+
 ### Strategy
 * [Good Strategy; Bad Strategy](https://www.amazon.com/gp/product/0307886239/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0307886239&linkCode=as2&tag=rliebling-20&linkId=76c7a9c5536f43268bc032fcf6787bfd)
     --- Provides a good framework for thinking about and documenting strategic decisions.  Also, I find it super helpful for technical decisions.  Helpfully, he provides many examples of strategies from well known companies that make it feel very natural and concrete.  Interestingly, I encountered this in this article about agile [Keep Agile Teams Aligned](https://uxdesign.cc/keep-agile-teams-aligned-820fdf142a60)
