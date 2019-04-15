@@ -134,6 +134,12 @@ weight = 10
 identifier = "about"
 url = "/about"
 
+[[menu.main]]
+name = "Books"
+weight = 10
+identifier = "books"
+url = "/book_recommendations"
+
 [blackfriday]
 hrefTargetBlank = true
 
