@@ -1,0 +1,9 @@
+_id: 02be6480-6528-11e9-8c32-97a45e7f724f
+honeypot: ''
+permalink: /posts/adopting_new_technologies_a_lesson/
+parent_id: ''
+content: "Yeah, networking is where a lot of Kubernetes' complexity lies, which lends to some of the nastier bugs. The CNI architecture, multiple network plugins (Flannel, Weave, Calico...) with different approaches and trade-offs which make the decision complex.\r\n\r\nAlso, choosing a \"Kubernetes as a service\" provider may be fine for some companies, and I'm sure that at least gCloud solves a lot for you. But some companies can't just do that for business reasons, and they have to fight all the installing, running and upgrading complexities by themselves."
+author: Victor Mendiluce
+email: ec1bbeb9452b67001925c622a5d3a6eb
+site: ''
+date: 1555955813393
