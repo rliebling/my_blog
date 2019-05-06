@@ -7,7 +7,7 @@ logo = "/images/avatar.jpg"             # default: "/images/logo.png"
 # Recent Posts Widget config
 [recent_posts]
 title = ""                            # default: "Recent Posts"
-length = 10                           # default: 5
+length = 20                           # default: 5
 excludeTypes = ["page"]               # default: ["page"]
 
 # Search Widget config
