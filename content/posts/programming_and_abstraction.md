@@ -3,7 +3,7 @@ title: "Programming and Abstraction"
 date: 2019-04-12T08:27:40-07:00
 draft: false
 authors: ["rich"]
-tags: ["programming", "refactoring", "abstraction"]
+tags: ["programming", "refactoring", "abstraction", "elixir"]
 ---
 
 I want to share a few good articles I read in the last week on programming.  
