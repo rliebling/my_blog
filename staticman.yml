@@ -9,7 +9,7 @@ comments:
       type: date
       options:
         format: "timestamp"
-  moderation: false
+  moderation: true
   name: "Rich Liebling's Blog"
   path: "data/comments/{options.postId}"
   requiredFields: ["author", "content", "email", "permalink"]
