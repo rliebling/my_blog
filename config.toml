@@ -78,7 +78,7 @@ github = "rliebling"
 linkedin = "richliebling"
 
 [params.comments]
-enable = true
+enable = false
 
 [params.comments.staticman]
 enable = true
