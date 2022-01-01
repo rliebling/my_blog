@@ -4,7 +4,7 @@ title = "Rich Liebling"
 copyright = ""
 footnoteReturnLinkContents="↩"
 
-theme = "engimo"
+theme = ["hugo-debugprint", "engimo"]
 
 disqusShortname = ""
 googleAnalytics = "UA-131321686-1"
@@ -149,3 +149,4 @@ hrefTargetBlank = true
 lang = "en"
 languageName = "English"
 weight = 1
+

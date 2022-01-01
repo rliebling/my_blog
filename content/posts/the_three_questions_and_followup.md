@@ -2,7 +2,7 @@
 title: "The Three Questions and Followup"
 date: 2019-04-24T16:58:50-07:00
 draft: false
-author: ["rich"]
+authors: ["rich"]
 tags: ["agile", "standup", "accomplishment","blockers"]
 ---
 

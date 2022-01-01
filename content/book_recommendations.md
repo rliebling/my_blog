@@ -3,7 +3,7 @@ title: "Book Recommendations"
 date: 2019-04-14T16:39:55-07:00
 draft: false
 authors: ["rich"]
-tags: []
+tags: ["books"]
 ---
 
 Some of my favorite (work-related) books

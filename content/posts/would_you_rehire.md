@@ -2,7 +2,7 @@
 title: "Would You Rehire This Employee?"
 date: 2019-05-06T13:26:36-07:00
 draft: false
-author: ["rich"]
+authors: ["rich"]
 tags: ["management", "hiring" ]
 ---
 
