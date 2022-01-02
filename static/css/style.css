@@ -1344,8 +1344,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 0.5rem
 }
 
-.ml-2 {
-  margin-left: 0.5rem
+.ml-1 {
+  margin-left: 0.25rem
+}
+
+.mt-6 {
+  margin-top: 1.5rem
 }
 
 .mr-1\.5 {
@@ -1354,14 +1358,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mr-1 {
   margin-right: 0.25rem
-}
-
-.mt-6 {
-  margin-top: 1.5rem
-}
-
-.ml-1 {
-  margin-left: 0.25rem
 }
 
 .block {
@@ -1457,24 +1453,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgb(229 231 235 / var(--tw-divide-opacity))
 }
 
-.truncate {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap
-}
-
 .whitespace-nowrap {
   white-space: nowrap
-}
-
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity))
-}
-
-.bg-green-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(220 252 231 / var(--tw-bg-opacity))
 }
 
 .fill-transparent {
@@ -1490,16 +1470,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 1.25rem
 }
 
-.px-1 {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem
-}
-
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1
@@ -1510,6 +1480,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2.5rem
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem
@@ -1517,10 +1492,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .font-semibold {
   font-weight: 600
-}
-
-.font-medium {
-  font-weight: 500
 }
 
 .font-bold {
@@ -1553,19 +1524,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(75 85 99 / var(--tw-text-opacity))
 }
 
-.text-gray-900 {
+.text-red-900 {
   --tw-text-opacity: 1;
-  color: rgb(17 24 39 / var(--tw-text-opacity))
+  color: rgb(127 29 29 / var(--tw-text-opacity))
 }
 
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity))
-}
-
-.text-red-900 {
-  --tw-text-opacity: 1;
-  color: rgb(127 29 29 / var(--tw-text-opacity))
 }
 
 .text-gray-400 {
@@ -1576,13 +1542,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .no-underline {
   -webkit-text-decoration-line: none;
           text-decoration-line: none
-}
-
-.line-clamp-2 {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2
 }
 
 .line-clamp-4 {
@@ -1598,23 +1557,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)
 }
 
-.focus-within\:ring-inset:focus-within {
-  --tw-ring-inset: inset
-}
-
 .focus-within\:ring-indigo-500:focus-within {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(99 102 241 / var(--tw-ring-opacity))
-}
-
-.focus-within\:ring-indigo-600:focus-within {
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(79 70 229 / var(--tw-ring-opacity))
-}
-
-.hover\:bg-gray-50:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 250 251 / var(--tw-bg-opacity))
 }
 
 .hover\:underline:hover {
