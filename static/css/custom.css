@@ -7,3 +7,11 @@
 .title, h1, h2, h3, h4, h5, h6, .menu {
   font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
 }
+
+/* assets */
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
