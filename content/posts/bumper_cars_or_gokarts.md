@@ -6,7 +6,7 @@ authors: ["rich"]
 tags: ["leadership", "alignment", "organizational efficiency" ]
 ---
 
-# Which is your company playing?
+## Which is your company playing?
 
 Does it feel like your company is playing bumper cars?  In bumper cars, there's typically an open area to drive with no particular direction or order to things.  In go karts, there's generally a track with a well defined direction.  In the organizational analogy of bumper cars each person or team may have a goal in mind but they keep getting bumped off course by another team (or person) heading in a different direction.  Go Karts present a greatly preferred model for orgs, where there may be plenty of bumps but, because every person and team is still going in the same general direction, the bumps are all minor and don't disrupt the general flow.
 
