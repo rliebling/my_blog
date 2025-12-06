@@ -9,7 +9,8 @@ theme = ["hugo-debugprint", "engimo"]
 disqusShortname = ""
 googleAnalytics = "UA-131321686-1"
 
-Paginate = 5
+[pagination]
+pagerSize = 5
 preserveTaxonomyNames = true
 
 enableRobotsTXT = true # generate robots.txt
@@ -149,4 +150,13 @@ hrefTargetBlank = true
 lang = "en"
 languageName = "English"
 weight = 1
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[services]
+  [services.googleAnalytics]
+    ID = "UA-131321686-1"
 
