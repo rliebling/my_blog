@@ -15,3 +15,12 @@
 @tailwind components;
 
 @tailwind utilities;
+
+/* Accessibility: stronger contrast for muted meta/nav text */
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity)); /* gray-600 */
+}
+.taxonomy-cloud a {
+  color: rgb(55 65 81); /* gray-700 */
+}

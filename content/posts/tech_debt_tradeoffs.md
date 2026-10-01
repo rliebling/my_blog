@@ -6,7 +6,7 @@ authors: ["rich"]
 tags: ["tech debt"]
 ---
 
-NOTE: please also see my followup post [More on tech debt]({{ relref . "more_on_tech_debt.md" }}).
+NOTE: please also see my followup post [More on tech debt]({{< relref "more_on_tech_debt.md" >}}).
 
 ### Tech Debt and the Race against Time:
 As I often say, we should all understand that there is good technical debt and bad technical debt. In real life, I have a house with a mortgage but don’t consider my mortgage bad. Sure, all else being equal, i’d rather not have a mortgage to pay. But, not all else IS equal. Because the mortgage allowed me to get a nice house now that i otherwise could not, I am good with the tradeoff of taking on this debt. Similarly, tech debt can be a very good thing, allowing you to have something you want sooner than you could otherwise have it (and perhaps otherwise you would never be able to have it).
