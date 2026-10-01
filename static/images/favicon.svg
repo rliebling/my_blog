@@ -1,5 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#0f172a"/>
-  <circle cx="32" cy="32" r="22" fill="none" stroke="#44ccff" stroke-width="3"/>
-  <text x="32" y="39" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#44ccff" letter-spacing="-1">RL</text>
+  <rect width="64" height="64" rx="12" fill="#44ccff"/>
+  <g fill="none" stroke="#0b1220" stroke-width="7" stroke-linecap="square" stroke-linejoin="miter">
+    <!-- R left half -->
+    <path d="M10 14v36"/>
+    <path d="M10 14h11c4.8 0 8 2.8 8 7.5S25.8 29 21 29H10"/>
+    <path d="M19 29l10 21"/>
+    <!-- L right half with more width -->
+    <path d="M40 14v36h16"/>
+  </g>
 </svg>
