@@ -9,8 +9,8 @@ theme = ["hugo-debugprint", "engimo"]
 disqusShortname = ""
 googleAnalytics = "UA-131321686-1"
 
-Paginate = 5
-preserveTaxonomyNames = true
+[pagination]
+pagerSize = 5
 
 enableRobotsTXT = true # generate robots.txt
 
@@ -116,6 +116,25 @@ tag = "tags"
 [permalinks]
 page = "/:slug/"
 
+
+[[menu.main]]
+name = "Home"
+weight = -120
+identifier = "home"
+url = "/"
+
+[[menu.main]]
+name = "Archive"
+weight = 20
+identifier = "archive"
+url = "/archive/"
+
+[[menu.main]]
+name = "RSS"
+weight = 30
+identifier = "rss"
+url = "/index.xml"
+
 [[menu.main]]
 name = "Github"
 weight = -110  # used to sort the menu
@@ -147,6 +166,15 @@ hrefTargetBlank = true
 # edit this block for your own language
 [languages.en]
 lang = "en"
-languageName = "English"
+label = "English"
 weight = 1
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[services]
+  [services.googleAnalytics]
+    ID = "UA-131321686-1"
 
