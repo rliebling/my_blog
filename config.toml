@@ -9,9 +9,6 @@ theme = ["hugo-debugprint", "engimo"]
 disqusShortname = ""
 googleAnalytics = "UA-131321686-1"
 
-[pagination]
-pagerSize = 5
-
 enableRobotsTXT = true # generate robots.txt
 
 # Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
@@ -21,6 +18,13 @@ enableEmoji = true
 
 # Missing translations will default to this content language
 defaultContentLanguage = "en"
+
+[pagination]
+pagerSize = 5
+
+# Hugo 0.123+ only emits robots.txt when ROBOTS is in home outputs
+[outputs]
+home = ["HTML", "RSS", "ROBOTS"]
 
 [params.info]
 description = "On Software, Strategy and Leadership"
