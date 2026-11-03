@@ -28,6 +28,8 @@ home = ["HTML", "RSS", "ROBOTS"]
 
 [params.info]
 description = "On Software, Strategy and Leadership"
+# Longer text for meta/og:description (LinkedIn wants >= 100 chars); UI keeps description above
+metaDescription = "Essays on software engineering, strategy, and leadership: how teams align, how managers lead, and how orgs get work done."
 title404 = "Nothing's here!"
 
 [params.assets]

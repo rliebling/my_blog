@@ -1,4 +1,4 @@
-{{- /* Keep meta/og descriptions short enough for LinkedIn and SEO snippets. */ -}}
+{{- /* Keep meta/og descriptions in LinkedIn's useful range (~100-160 chars). */ -}}
 {{- $max := 160 -}}
 {{- with .Description -}}
   {{- . | plainify | htmlUnescape | truncate $max -}}
@@ -6,8 +6,12 @@
   {{- if .IsPage -}}
     {{- .Summary | plainify | htmlUnescape | truncate $max -}}
   {{- else -}}
-    {{- with .Site.Params.info.description -}}
-      {{- . -}}
+    {{- with .Site.Params.info.metaDescription -}}
+      {{- . | plainify | htmlUnescape | truncate $max -}}
+    {{- else -}}
+      {{- with .Site.Params.info.description -}}
+        {{- . -}}
+      {{- end -}}
     {{- end -}}
   {{- end -}}
 {{- end -}}
