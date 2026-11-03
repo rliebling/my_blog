@@ -60,6 +60,10 @@ homepage = ["recent_posts"]
 sidebar = ["about","sidebar_menu","taxonomy_cloud","social_menu"]
 footer = []
 
+[params.opengraph]
+# Default share image (LinkedIn/Facebook/etc require og:image; prefer >= 1200x630)
+image = "/images/og-default.png"
+
 [params.opengraph.facebook]
 admins = [] # array of Facebook IDs
 appID = ""

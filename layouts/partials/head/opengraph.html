@@ -33,19 +33,25 @@
 {{- end -}}
 
 {{- if not ( or .Params.images .Params.cover ) -}}
-  {{- range $authorID := .Params.authors -}}
-    {{- $author := ( index $.Site.Data.authors $authorID ) -}}
-    {{- with $author -}}
-      {{- if or .social.email ( and .email.username .email.host ) -}}
-      <meta property='og:image' content='https://www.gravatar.com/avatar/
-        {{- with .social.email -}}
-          {{- . | md5 -}}
-        {{- else -}}
-          {{- with .email -}}
-            {{- ( print .username "@" .host ) | md5 -}}
+  {{- with .Site.Params.opengraph.image -}}
+    <meta property='og:image' content='{{ . | absURL }}'>
+    <meta property='og:image:width' content='1200'>
+    <meta property='og:image:height' content='630'>
+  {{- else -}}
+    {{- range $authorID := .Params.authors -}}
+      {{- $author := ( index $.Site.Data.authors $authorID ) -}}
+      {{- with $author -}}
+        {{- if or .social.email ( and .email.username .email.host ) -}}
+        <meta property='og:image' content='https://www.gravatar.com/avatar/
+          {{- with .social.email -}}
+            {{- . | md5 -}}
+          {{- else -}}
+            {{- with .email -}}
+              {{- ( print .username "@" .host ) | md5 -}}
+            {{- end -}}
           {{- end -}}
+          ?s=1200'>
         {{- end -}}
-        ?s=256'>
       {{- end -}}
     {{- end -}}
   {{- end -}}
