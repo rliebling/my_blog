@@ -1,3 +1,5 @@
+- OKRs - top-down vs bottom-up
+  - if bottom-up, who ensures they compose?  mux/demux metaphor
 - What does a Dir Eng do?
 - tech debt - cultural value
 - you get what you incentivize 
