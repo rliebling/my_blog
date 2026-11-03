@@ -9,9 +9,6 @@ theme = ["hugo-debugprint", "engimo"]
 disqusShortname = ""
 googleAnalytics = "UA-131321686-1"
 
-Paginate = 5
-preserveTaxonomyNames = true
-
 enableRobotsTXT = true # generate robots.txt
 
 # Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
@@ -21,6 +18,13 @@ enableEmoji = true
 
 # Missing translations will default to this content language
 defaultContentLanguage = "en"
+
+[pagination]
+pagerSize = 5
+
+# Hugo 0.123+ only emits robots.txt when ROBOTS is in home outputs
+[outputs]
+home = ["HTML", "RSS", "ROBOTS"]
 
 [params.info]
 description = "On Software, Strategy and Leadership"
@@ -59,6 +63,10 @@ homepage = ["recent_posts"]
 #sidebar = ["about","search","sidebar_menu","taxonomy_cloud"]
 sidebar = ["about","sidebar_menu","taxonomy_cloud","social_menu"]
 footer = []
+
+[params.opengraph]
+# Default share image (LinkedIn/Facebook/etc require og:image; prefer >= 1200x630)
+image = "/images/og-default.png"
 
 [params.opengraph.facebook]
 admins = [] # array of Facebook IDs
@@ -116,6 +124,25 @@ tag = "tags"
 [permalinks]
 page = "/:slug/"
 
+
+[[menu.main]]
+name = "Home"
+weight = -120
+identifier = "home"
+url = "/"
+
+[[menu.main]]
+name = "Archive"
+weight = 20
+identifier = "archive"
+url = "/archive/"
+
+[[menu.main]]
+name = "RSS"
+weight = 30
+identifier = "rss"
+url = "/index.xml"
+
 [[menu.main]]
 name = "Github"
 weight = -110  # used to sort the menu
@@ -147,6 +174,15 @@ hrefTargetBlank = true
 # edit this block for your own language
 [languages.en]
 lang = "en"
-languageName = "English"
+label = "English"
 weight = 1
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[services]
+  [services.googleAnalytics]
+    ID = "UA-131321686-1"
 

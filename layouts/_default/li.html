@@ -1,0 +1,24 @@
+<li class="py-5">
+  <div class="flex justify-between space-x-3 items-baseline">
+    <div class='meta'>
+      {{ partial "list/date" . }}
+    </div>
+    <div class="min-w-0 flex-1">
+      <div class="relative focus-within:ring-2 focus-within:ring-indigo-500">
+        <h3 class="font-semibold text-gray-800">
+          <a href="{{ .Permalink | relURL }}" class="hover:underline focus:outline-none">
+            <!-- Extend touch target to entire panel -->
+            <span class="absolute inset-0" aria-hidden="true"></span>
+            {{- .Title -}}
+          </a>
+        </h3>
+        <p class="mt-1 text-gray-600 line-clamp-3 prose prose-lg">
+          {{- .Summary | plainify | htmlUnescape | truncate 220 -}}
+        </p>
+        <p class="mt-1 text-sm font-medium text-sky-700 hover:underline focus:outline-none">
+          Read more
+        </p>
+      </div>
+    </div>
+  </div>
+</li>

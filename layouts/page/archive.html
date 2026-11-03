@@ -1,0 +1,29 @@
+{{ partial "header" . }}
+
+{{ partial "header/header" . }}
+
+{{ if .Content }}
+<div class='entry'>
+  {{ partial "entry/content" . }}
+</div>
+{{ end }}
+
+<div class='container list-container'>
+  {{ range ( where .Site.RegularPages "Type" "ne" "page" ).GroupByDate "2006" }}
+  <div class='archive-group sep-after'>
+    <h3>{{ .Key }}</h3>
+    <ul class='list'>
+      {{ range .Pages }}
+      <li class='item'>
+        <span class='meta'>{{ .Date.Format ($.Site.Params.settings.archiveDateFormat | default "Jan 02") }}</span>
+        <h4 class='item-title'>
+          <a href='{{ .RelPermalink }}'>{{ .Title }}</a>
+        </h4>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ end }}
+</div>
+
+{{ partial "footer" . }}

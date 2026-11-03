@@ -1,0 +1,13 @@
+{{- /* Keep meta/og descriptions short enough for LinkedIn and SEO snippets. */ -}}
+{{- $max := 160 -}}
+{{- with .Description -}}
+  {{- . | plainify | htmlUnescape | truncate $max -}}
+{{- else -}}
+  {{- if .IsPage -}}
+    {{- .Summary | plainify | htmlUnescape | truncate $max -}}
+  {{- else -}}
+    {{- with .Site.Params.info.description -}}
+      {{- . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
