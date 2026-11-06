@@ -7,7 +7,6 @@ footnoteReturnLinkContents="↩"
 theme = ["hugo-debugprint", "engimo"]
 
 disqusShortname = ""
-googleAnalytics = "UA-131321686-1"
 
 enableRobotsTXT = true # generate robots.txt
 
@@ -186,5 +185,5 @@ weight = 1
 
 [services]
   [services.googleAnalytics]
-    ID = "UA-131321686-1"
+    ID = "G-MPMVXJH2XV"
 
